@@ -12,6 +12,23 @@
 #include<stdio.h>
 int main()
 {
+int height;
+printf("enter the Height : ");
+scanf("%i",&height);
+
+if (height<150)
+{
+   printf("dwarf , buttkun 2 chai");
+}
+else if (height>=150 && height< 200)
+{
+    printf("average");
+}
+else if (height>=200)
+{
+    printf("tall (lambu)");
+}
+
 
 return 0;
 }
